@@ -17,8 +17,13 @@ if 200 in data:
    idx = data.index(200)
    print("index of 200:",idx)
 
-data.sort()
-print("after sort:",data)
-
 data.reverse()
-print("after reverse:",data)    
+numbers = [ "120, 23  12, 123, 546, 67, 245, 328, 190"]
+reversed = numbers[::-1]
+print("after reverse :",data)
+
+numbers = [120, 23, 12, 123, 546, 67] 
+numbers.sort() 
+print(numbers)
+
+
